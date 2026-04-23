@@ -1,0 +1,4 @@
+# Mon fichier de config
+nom=monapp
+port=8080
+host=localhost

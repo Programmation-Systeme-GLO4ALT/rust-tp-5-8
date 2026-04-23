@@ -1,0 +1,5 @@
+# Fichier de configuration
+nom=Richenelle
+age=35
+ville=Bandjoun
+
