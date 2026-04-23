@@ -1,0 +1,6 @@
+target/
+**/target/
+.vs/
+**/.vs/
+*.zip
+*.rar

@@ -1,0 +1,6 @@
+[package]
+name = "tp2_io_generique"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
