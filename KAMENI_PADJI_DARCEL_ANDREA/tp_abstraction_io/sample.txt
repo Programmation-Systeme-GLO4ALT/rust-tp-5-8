@@ -1,0 +1,1 @@
+Ceci est un fichier disque lu par le projet tp_abstraction_io.
