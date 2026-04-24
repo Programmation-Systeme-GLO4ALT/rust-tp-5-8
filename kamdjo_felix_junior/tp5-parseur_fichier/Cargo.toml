@@ -1,7 +1,0 @@
-[package]
-name = "tp5-parseur_fichier"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-thiserror = "1.0"
