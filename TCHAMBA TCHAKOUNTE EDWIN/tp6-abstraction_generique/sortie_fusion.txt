@@ -1,0 +1,6 @@
+ligne_de_memoire_1
+ligne_de_memoire_2
+première ligne du fichier
+deuxième ligne du fichier
+troisième ligne du fichier
+ligne_de_memoire_3
