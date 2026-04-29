@@ -1,0 +1,4 @@
+# Exemple de fichier clé=valeur
+nom=Darcel
+ville=Paris
+projet=TP parseur

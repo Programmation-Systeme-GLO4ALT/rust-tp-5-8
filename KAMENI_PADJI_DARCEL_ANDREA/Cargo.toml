@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "tp_parseur",
+    "tp_abstraction_io",
+    "syswatch",
+]
