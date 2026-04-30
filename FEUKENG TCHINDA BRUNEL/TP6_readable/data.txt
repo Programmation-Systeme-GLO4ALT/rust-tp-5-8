@@ -1,0 +1,2 @@
+nom=Alice
+age=25
