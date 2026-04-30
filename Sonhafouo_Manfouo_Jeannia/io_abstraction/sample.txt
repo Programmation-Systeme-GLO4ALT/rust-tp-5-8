@@ -1,0 +1,5 @@
+# Fichier de démonstration
+nom    = Alice
+age    = 30
+ville  = Douala
+langue = Rust
