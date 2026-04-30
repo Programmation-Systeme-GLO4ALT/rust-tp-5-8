@@ -1,0 +1,7 @@
+# Configuration de l'application
+host = localhost
+port = 8080
+database_url = postgres://user:pass@localhost/db
+debug = true
+# Une URL avec un '=' dans la valeur est gérée correctement
+callback_url = https://example.com/cb?ref=42
