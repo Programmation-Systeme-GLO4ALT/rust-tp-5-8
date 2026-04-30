@@ -1,0 +1,3 @@
+nom=Junior
+age=25
+ville=Yaounde
