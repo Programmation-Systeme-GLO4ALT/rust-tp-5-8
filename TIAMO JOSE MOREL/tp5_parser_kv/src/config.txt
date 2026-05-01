@@ -1,0 +1,5 @@
+# Fichier de configuration
+nom=Morel
+age=22
+ville=Bamenda
+
