@@ -1,1 +1,58 @@
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+   0.193735300s  INFO prepare_target{force=false package_id=tp2 v0.1.0 (D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable) target="tp2"}: cargo::core::compiler::fingerprint: fingerprint error for tp2 v0.1.0 (D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable)/Check { test: false }/TargetInner { name: "tp2", doc: true, ..: with_path("D:\\TP2\\rust-tp-5-8\\Djouka_Fongang_Frederic_Melissa\\TP6_readable\\src\\main.rs", Edition2024) }
+   0.193929100s  INFO prepare_target{force=false package_id=tp2 v0.1.0 (D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable) target="tp2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable\target\debug\.fingerprint\tp2-b7188da4e881eea3\bin-tp2`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.266238100s  INFO prepare_target{force=false package_id=tp2 v0.1.0 (D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable) target="tp2"}: cargo::core::compiler::fingerprint: fingerprint error for tp2 v0.1.0 (D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable)/Check { test: true }/TargetInner { name: "tp2", doc: true, ..: with_path("D:\\TP2\\rust-tp-5-8\\Djouka_Fongang_Frederic_Melissa\\TP6_readable\\src\\main.rs", Edition2024) }
+   0.266352600s  INFO prepare_target{force=false package_id=tp2 v0.1.0 (D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable) target="tp2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable\target\debug\.fingerprint\tp2-a7db250482e2cf01\test-bin-tp2`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking tp2 v0.1.0 (D:\TP2\rust-tp-5-8\Djouka_Fongang_Frederic_Melissa\TP6_readable)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.87s

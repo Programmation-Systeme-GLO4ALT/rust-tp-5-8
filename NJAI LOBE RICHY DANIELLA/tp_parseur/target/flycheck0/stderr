@@ -1,0 +1,88 @@
+   0.172845800s  INFO prepare_target{force=false package_id=parser_kv v0.1.0 (D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur) target="parser_kv"}: cargo::core::compiler::fingerprint: fingerprint error for parser_kv v0.1.0 (D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur)/Check { test: false }/TargetInner { name: "parser_kv", doc: true, ..: with_path("D:\\TPS\\Djouka_Fongang_Frederic_Melissa\\TP5_parseur\\src\\main.rs", Edition2024) }
+   0.173043000s  INFO prepare_target{force=false package_id=parser_kv v0.1.0 (D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur) target="parser_kv"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur\target\debug\.fingerprint\parser_kv-5008fb152ed6ac62\bin-parser_kv`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.211727000s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\User\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
+   0.222740000s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur\target\debug\.fingerprint\thiserror-3fe4144373e3ea8e\lib-thiserror`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.237482500s  INFO prepare_target{force=false package_id=parser_kv v0.1.0 (D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur) target="parser_kv"}: cargo::core::compiler::fingerprint: fingerprint error for parser_kv v0.1.0 (D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur)/Check { test: true }/TargetInner { name: "parser_kv", doc: true, ..: with_path("D:\\TPS\\Djouka_Fongang_Frederic_Melissa\\TP5_parseur\\src\\main.rs", Edition2024) }
+   0.237576600s  INFO prepare_target{force=false package_id=parser_kv v0.1.0 (D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur) target="parser_kv"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur\target\debug\.fingerprint\parser_kv-87685a632ae06cf0\test-bin-parser_kv`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking thiserror v1.0.69
+    Checking parser_kv v0.1.0 (D:\TPS\Djouka_Fongang_Frederic_Melissa\TP5_parseur)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.25s
